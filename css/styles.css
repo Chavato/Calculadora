@@ -1,0 +1,91 @@
+/*  Geral   */
+body, h1, p, span{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: #0f1722;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0 ;
+    color: #FFF;
+}
+
+/* Calculadora  */
+#calculator{
+    background-color: #1D293A;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#screen-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 258px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #354357;
+    text-align: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#upper-number, #result-number{
+    float: right;
+    color: white;
+}
+
+#result-number{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    clear: both;
+}
+
+.btn-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn{
+    width:50px;
+    height:50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align:center;
+    color: #fff;
+    background-color: #354357;
+    font-weight: bold;
+    font-size: 18px;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: #6c63ff;
+}
+
+#ac-btn{
+    margin-left: -200px;
+}
+#division-btn{
+    position: absolute ;
+    right: 14px;
+}
+
+#zero-btn, #equals-btn{
+    width: 120px;
+}
